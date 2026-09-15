@@ -1,0 +1,39 @@
+### HEXMate logfile and output summary ###
+
+### Command-line arguments ###
+ C:\Users\dimli\AppData\Local\Temp\xcAsfig.0\driver_tmp_3.o
+ -Odist/default/debug\Lab1.X.debug.hex
+ -logfile=dist/default/debug\Lab1.X.debug.hxl
+ -addressing=1
+ -break=300000
+
+### Memory Usage ###
+ Input file ranges:
+  0h - 3h		(C:\Users\dimli\AppData\Local\Temp\xcAsfig.0\driver_tmp_3.o)
+  1000h - 104Dh		(C:\Users\dimli\AppData\Local\Temp\xcAsfig.0\driver_tmp_3.o)
+  FFFCh - FFFFh		(C:\Users\dimli\AppData\Local\Temp\xcAsfig.0\driver_tmp_3.o)
+  300000h - 30000Dh		(C:\Users\dimli\AppData\Local\Temp\xcAsfig.0\driver_tmp_3.o)
+ Unused ranges:
+  4h - FFFh
+  104Eh - FFFBh
+  10000h - 2FFFFFh
+
+### Hex Memory Map ###
+ Legend:
+  -- = Unused memory
+  H1 = Input file             (C:\Users\dimli\AppData\Local\Temp\xcAsfig.0\driver_tmp_3.o)
+----------------------------------------------------------
+         | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+----------------------------------------------------------
+00000000 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
+----------------------------------------------------------
+00001000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001010 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001020 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001030 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00001040 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- --
+----------------------------------------------------------
+0000FFF0 | -- -- -- -- -- -- -- -- -- -- -- -- H1 H1 H1 H1
+----------------------------------------------------------
+00300000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- --
+00300010 | --
