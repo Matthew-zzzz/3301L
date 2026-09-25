@@ -236,7 +236,7 @@ void main(void) {
  //   NS_YELLOW:     lights, delay_and_poll(3000), -> EW_GREEN
        case NS_YELLOW:
        {
-           set_lights(YELLOWS, YELLOWS);
+           set_lights(YELLOWS, REDS);
            
            if (delay_and_poll(3000)) {
                state = ALL_RED_FLASH;
